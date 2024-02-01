@@ -37,7 +37,7 @@ class Board
       @cases[choice].value = player.symbol
     else
       puts ""
-      puts "Choisis une case vide, imbécile !"
+      puts "Choisis une case vide, imbécile ! 😠"
       play_turn(player) # permet de passer au tour suivant (def turn dans le fichier game.rb)
     end
   end
