@@ -39,6 +39,7 @@ class App
 
     show.show_board(game.board)   # montre le tableau une dernière fois avec la combinaison gagnante
     game.game_end
+    puts "Félicitation ! 😊😊😊😊😊"
   end
 end
 
